@@ -17,6 +17,7 @@ function SecondaryContainer() {
         <VideoList Movies={nowPlayMovies} title={"Now Playing Movies"} />
         <VideoList Movies={popularMoviesList} title={"Popular Movies"} />
         <VideoList Movies={topRatedMovieList} title={"Top Rated Movies"} />
+        <VideoList Movies={nowPlayMovies} title={"Now Playing Movies"} />
       </div>
     </div>
   );

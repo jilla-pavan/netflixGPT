@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import LoginPage from "./LoginPage";
 import Browse from "./Browse";
+import MoviePage from "./MoviePage";
 import { useDispatch } from "react-redux";
 
 function Body() {
@@ -19,8 +20,9 @@ function Body() {
       path: "/browse",
       element: <Browse />,
     },
+    { path: "/moviePage", element: <MoviePage /> },
   ]);
-  
+
   return (
     <div className="">
       <RouterProvider router={appRoot}> </RouterProvider>
